@@ -53,8 +53,8 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">
-              Wait a MOMENT, what do you know?<br>
-              Interrogating Time Series Foundation Models
+              Wait a MOMENT, What Do You Know?<br>
+              Interrogating Time Series Foundation Models 🕵️📈
             </h1>
             
             
@@ -65,10 +65,12 @@
                 <span class="author-block">
                   <a href="https://mononitogoswami.github.io" target="_blank">Mononito Goswami</a><sup>1</sup>,</span>
                   <span class="author-block">
+                    Nina Żukowska</a><sup>1 2</sup>,</span>
+                  <span class="author-block">
                     <a href="https://linktr.ee/fanurs" target="_blank">Chi-En Teh</a><sup>1</sup>,</span>
                   </span>
                   <span class="author-block">
-                    <a href="https://www.ri.cmu.edu/ri-faculty/artur-w-dubrawski/" target="_blank">Artur Dubrawski</a><sup>1</sup>,</span>
+                    <a href="https://www.ri.cmu.edu/ri-faculty/artur-w-dubrawski/" target="_blank">Artur Dubrawski</a><sup>1</sup></span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
@@ -76,6 +78,7 @@
                       <sup>1</sup>Auton Lab, The Robotics Institute, Carnegie Mellon University</span>
                       <span class="author-block">
                       <sup>2</sup>Poznan University of Technology</span>
+                      <br>Robotics Institute Summer Scholars 2024
                       </div>
                   </div>
                 </div>
@@ -84,7 +87,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="riss_paper.pdf" target="_blank"
+                        <a href="static/pdfs/paper.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -117,11 +120,11 @@
 <!-- Teaser image -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img src="static/images/teaser.png" alt="Teaser Image" style="height: auto; width: 100%;">
+    <div class="hero-body has-text-centered">
+      <img src="static/images/teaser.png" alt="Teaser Image" style="height: auto; width: 55%;">
       <h2 class="subtitle has-text-centered">
-      We perform studies on the new time series foundation models, with an emphasis on MOMENT to understand their internal representations and mechanisms.
-    </h2>
+        We perform studies on the new time series foundation models, with an emphasis on MOMENT to understand their internal representations and mechanisms.
+      </h2>
     </div>
   </div>
 </section>
@@ -136,10 +139,9 @@
         <div class="column is-four-fifths">
           <div class="content">
             <ul>
-              <li>What are the internal representations and mechanisms of time series foundation models?</li>
-              <li>How do these models compare in terms of their learned representations and underlying processes?</li>
-              <li>What are the limitations and potential failure points of these models?</li>
-              <li>How can we responsibly deploy these models in real-world scenarios?</li>
+              <li>What are the similarity characteristics of the internal representations learned by different time series foundation models?</li>
+              <li>Is there any inherent structure in the learned representations, interesting patterns, or anomalies?</li>
+              <li>Can we identify how different parts of models contribute to the final predictions?</li>
             </ul>
           </div>
         </div>
@@ -156,7 +158,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Time series foundation models have significantly impacted the machine learning community, demonstrating notable adaptability across various downstream tasks. These models offer easy-to-use and powerful tools for analyzing and predicting temporal data across diverse applications, from finance to healthcare. However, large scale, in terms of both parameters and training data, poses challenges in evaluating their limitations and determining appropriate use cases. The rapid evolution of this field raises questions about the optimal architecture and training data composition, as well as the mechanisms employed for time series processing. Furthermore, to responsibly deploy these models in real-world scenarios, it is crucial to understand their limitations and potential failure points, enabling stakeholders to make informed decisions. <br> To address these knowledge gaps, we introduce Time Series Interrogator, a novel framework for analyzing time series foundation models, leveraging representation analysis and mechanistic interpretability techniques. Our study applies it to multiple publicly available models, offering a comparative analysis of their learned representations and underlying processes. This approach not only provides insights into the workings of time series foundation models, but also paves the way for more informed model development and application. By elucidating these complex systems, our work contributes to the responsible advancement of time series analysis, enabling researchers and practitioners to harness the full potential of foundation models while understanding their inherent strengths and limitations.
+            Time series foundation models have significantly impacted the machine learning community, demonstrating notable adaptability across various downstream tasks. These models offer easy-to-use and powerful tools for analyzing and predicting temporal data across diverse applications, from finance to healthcare. However, large scale, in terms of both parameters and training data, poses challenges in evaluating their limitations and determining appropriate use cases. The rapid evolution of this field raises questions about the optimal architecture and training data composition, as well as the mechanisms employed for time series processing. Furthermore, to responsibly deploy these models in real-world scenarios, it is crucial to understand their limitations and potential failure points, enabling stakeholders to make informed decisions. <br> 
+            To address these knowledge gaps, we introduce <b>Time Series Interrogator</b>🕵️📈, a novel framework for analyzing time series foundation models, leveraging representation analysis and mechanistic interpretability techniques. Our study applies it to multiple publicly available models, offering a comparative analysis of their learned representations and underlying processes. This approach not only provides insights into the workings of time series foundation models, but also paves the way for more informed model development and application. By elucidating these complex systems, our work contributes to the responsible advancement of time series analysis, enabling researchers and practitioners to harness the full potential of foundation models while understanding their inherent strengths and limitations.
           </p>
         </div>
       </div>
@@ -175,14 +178,131 @@
         <div class="column is-four-fifths">
           <div class="content">
             <p>
-              ph1
+              To answer the first research question: What are the similarity characteristics of the internal representations learned by different time series foundation models?
+            </p>
+
+            <!-- AutonLab MOMENT -->
+            <h3 class="subtitle">AutonLab MOMENT</h3>
+            <div class="columns is-multiline">
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/AutonLab_MOMENT-1-large.png" alt="AutonLab MOMENT-1 Large Similarity Matrix">
+                  <figcaption class="has-text-centered">AutonLab MOMENT-1 Large</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <!-- Salesforce Moirai -->
+            <h3 class="subtitle">Salesforce Moirai</h3>
+            <div class="columns is-multiline">
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/Salesforce_moirai-1.0-R-small.png" alt="Salesforce Moirai-1.0-R Small Similarity Matrix">
+                  <figcaption class="has-text-centered">Salesforce Moirai-1.0-R Small</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/Salesforce_moirai-1.0-R-base.png" alt="Salesforce Moirai-1.0-R Base Similarity Matrix">
+                  <figcaption class="has-text-centered">Salesforce Moirai-1.0-R Base</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/Salesforce_moirai-1.0-R-large.png" alt="Salesforce Moirai-1.0-R Large Similarity Matrix">
+                  <figcaption class="has-text-centered">Salesforce Moirai-1.0-R Large</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/Salesforce_moirai-1.1-R-small.png" alt="Salesforce Moirai-1.1-R Small Similarity Matrix">
+                  <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Small</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/Salesforce_moirai-1.1-R-base.png" alt="Salesforce Moirai-1.1-R Base Similarity Matrix">
+                  <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Base</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/Salesforce_moirai-1.1-R-large.png" alt="Salesforce Moirai-1.1-R Large Similarity Matrix">
+                  <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Large</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <!-- Amazon Chronos-T5 -->
+            <h3 class="subtitle">Amazon Chronos-T5</h3>
+            <div class="columns is-multiline">
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/amazon_chronos-t5-tiny.png" alt="Amazon Chronos-T5 Tiny Similarity Matrix">
+                  <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/amazon_chronos-t5-mini.png" alt="Amazon Chronos-T5 Mini Similarity Matrix">
+                  <figcaption class="has-text-centered">Amazon Chronos-T5 Mini</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/amazon_chronos-t5-small.png" alt="Amazon Chronos-T5 Small Similarity Matrix">
+                  <figcaption class="has-text-centered">Amazon Chronos-T5 Small</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/amazon_chronos-t5-base.png" alt="Amazon Chronos-T5 Base Similarity Matrix">
+                  <figcaption class="has-text-centered">Amazon Chronos-T5 Base</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="image">
+                  <img src="static/images/similarity/amazon_chronos-t5-large.png" alt="Amazon Chronos-T5 Large Similarity Matrix">
+                  <figcaption class="has-text-centered">Amazon Chronos-T5 Large</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <p>
+              These similarity matrices provide a visual comparison of the internal representations learned by different time series foundation models.
             </p>
           </div>
-        </div>
+          <div class="content">
+            <p>
+              To answer the second research question: Is there any inherent structure in the learned representations, interesting patterns, or anomalies?
+            </p>
+
+            <h3 class="subtitle">Scaling the same model</h3>
+
+            <div class="columns is-multiline">
+                <figure class="image">
+                  <img src="static/images/similarity/sim_scale.png" alt="Scaling Amazon Chronos-T5">
+                  <figcaption class="has-text-centered">Scaling Amazon Chronos-T5</figcaption>
+                </figure>
+            </div>
+
+            <h3 class="subtitle">Comparing different models from the same family</h3>
+
+            <div class="columns is-multiline">
+                <figure class="image">
+                  <img src="static/images/similarity/family.png" alt="Comparing Amazon Chronos-T5">
+                  <figcaption class="has-text-centered">Comparing Amazon Chronos-T5 Mini & Base to Large</figcaption>
+                </figure>
+            </div>
+
+            <h3 class="subtitle">Comparing different models from different families</h3>
+            
       </div>
     </div>
   </div>
 </section>
+<!-- End Results -->
+
 
 <!-- Paper poster -->
 <section class="hero is-small is-light">
@@ -198,13 +318,22 @@
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+@inproceedings{Wilinski2024tsinterpretability,
+  author    = {Michał Wiliński and Mononito Goswami and Nina Żukowska and Chi-En Teh and Artur Dubrawski},
+  title     = {Wait a MOMENT, What Do You Know? Interrogating Time Series Foundation Models},
+  booktitle = {Robotics Institute Summer Scholars Working Paper Journal},
+  year      = {2024},
+  organization = {Auton Lab, Carnegie Mellon University},
+}
+    </code></pre>
+  </div>
 </section>
 <!--End BibTex citation -->
+
 
 
   <footer class="footer">
@@ -214,8 +343,7 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.<br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
