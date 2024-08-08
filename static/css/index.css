@@ -29,7 +29,10 @@ body {
 
 
 .publication-title {
-  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .publication-banner {
