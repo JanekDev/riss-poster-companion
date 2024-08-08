@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
 
   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
@@ -26,15 +27,13 @@
 
   <title>Wait a MOMENT, what do you know? Interrogating Time Series Foundation Models</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -44,6 +43,7 @@
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
 </head>
+
 <body>
 
 
@@ -56,272 +56,785 @@
               Wait a MOMENT, What Do You Know?<br>
               Interrogating Time Series Foundation Models 🕵️📈</nobr>
             </h1>
-            
-            
+
+
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
                 <a href="https://github.com/JanekDev" target="_blank">Michał Wiliński</a><sup>1 2</sup>,</span>
-                <span class="author-block">
-                  <a href="https://mononitogoswami.github.io" target="_blank">Mononito Goswami</a><sup>1</sup>,</span>
-                  <span class="author-block">
-                    Nina Żukowska</a><sup>1 2</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://linktr.ee/fanurs" target="_blank">Chi-En Teh</a><sup>1</sup>,</span>
-                  </span>
-                  <span class="author-block">
-                    <a href="https://www.ri.cmu.edu/ri-faculty/artur-w-dubrawski/" target="_blank">Artur Dubrawski</a><sup>1</sup></span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">
-                      <sup>1</sup>Auton Lab, The Robotics Institute, Carnegie Mellon University</span>
-                      <span class="author-block">
-                      <sup>2</sup>Poznan University of Technology</span>
-                      <br>Robotics Institute Summer Scholars 2024
-                      </div>
-                  </div>
-                </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="static/pdfs/paper.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://youtu.be/dQw4w9WgXcQ?si=dmT_vwr6ukDWtJPp" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-                </a>
+              <span class="author-block">
+                <a href="https://mononitogoswami.github.io" target="_blank">Mononito Goswami</a><sup>1</sup>,</span>
+              <span class="author-block">
+                Nina Żukowska</a><sup>1 2</sup>,</span>
+              <span class="author-block">
+                <a href="https://linktr.ee/fanurs" target="_blank">Chi-En Teh</a><sup>1</sup>,</span>
               </span>
+              <span class="author-block">
+                <a href="https://www.ri.cmu.edu/ri-faculty/artur-w-dubrawski/" target="_blank">Artur
+                  Dubrawski</a><sup>1</sup></span>
             </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>Auton Lab, The Robotics Institute, Carnegie Mellon University</span>
+              <span class="author-block">
+                <sup>2</sup>Poznan University of Technology</span>
+              <br>Robotics Institute Summer Scholars 2024
+            </div>
+          </div>
+        </div>
+
+        <div class="column has-text-centered">
+          <div class="publication-links">
+            <!-- Arxiv PDF link -->
+            <span class="link-block">
+              <a href="static/pdfs/paper.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+              </a>
+            </span>
+
+            <!-- Github link -->
+            <span class="link-block">
+              <a href="https://youtu.be/dQw4w9WgXcQ?si=dmT_vwr6ukDWtJPp" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+              </a>
+            </span>
+            </a>
+            </span>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-
-<!-- Teaser image -->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body has-text-centered">
-      <img src="static/images/teaser.png" alt="Teaser Image" style="height: auto; width: 55%;">
-      <h2 class="subtitle has-text-centered">
-        We perform studies on the new time series foundation models, with an emphasis on MOMENT to understand their internal representations and mechanisms.
-      </h2>
     </div>
-  </div>
-</section>
-<!-- End teaser image -->
+    </div>
+  </section>
 
-<!-- Research questions -->
-<section class="hero">
-  <div class="hero-body">
+
+  <!-- Teaser image -->
+  <section class="hero teaser">
     <div class="container is-max-desktop">
-      <h2 class="title">Research Questions</h2>
-      <div class="columns is-centered">
-        <div class="column is-four-fifths">
-          <div class="content">
-            <ul>
-              <li>What are the similarity characteristics of the internal representations learned by different time series foundation models?</li>
-              <li>Is there any inherent structure in the learned representations, interesting patterns, or anomalies?</li>
-              <li>Can we identify how different parts of models contribute to the final predictions?</li>
-            </ul>
+      <div class="hero-body has-text-centered">
+        <img src="static/images/teaser.png" alt="Teaser Image" style="height: auto; width: 55%;">
+        <h2 class="subtitle has-text-centered">
+          We perform studies on the new time series foundation models, with an emphasis on MOMENT to understand their
+          internal representations and mechanisms.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End teaser image -->
+
+  <!-- Research questions -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h2 class="title">Research Questions</h2>
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <div class="content">
+              <ul>
+                <li>What are the similarity characteristics of the internal representations learned by different time
+                  series foundation models?</li>
+                <li>Is there any inherent structure in the learned representations, interesting patterns, or anomalies?
+                </li>
+                <li>Can we identify how different parts of models contribute to the final predictions?</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Time series foundation models have significantly impacted the machine learning community, demonstrating notable adaptability across various downstream tasks. These models offer easy-to-use and powerful tools for analyzing and predicting temporal data across diverse applications, from finance to healthcare. However, large scale, in terms of both parameters and training data, poses challenges in evaluating their limitations and determining appropriate use cases. The rapid evolution of this field raises questions about the optimal architecture and training data composition, as well as the mechanisms employed for time series processing. Furthermore, to responsibly deploy these models in real-world scenarios, it is crucial to understand their limitations and potential failure points, enabling stakeholders to make informed decisions. <br> 
-            To address these knowledge gaps, we introduce <b>Time Series Interrogator</b>🕵️📈, a novel framework for analyzing time series foundation models, leveraging representation analysis and mechanistic interpretability techniques. Our study applies it to multiple publicly available models, offering a comparative analysis of their learned representations and underlying processes. This approach not only provides insights into the workings of time series foundation models, but also paves the way for more informed model development and application. By elucidating these complex systems, our work contributes to the responsible advancement of time series analysis, enabling researchers and practitioners to harness the full potential of foundation models while understanding their inherent strengths and limitations.
-          </p>
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Time series foundation models have significantly impacted the machine learning community, demonstrating
+              notable adaptability across various downstream tasks. These models offer easy-to-use and powerful tools
+              for analyzing and predicting temporal data across diverse applications, from finance to healthcare.
+              However, large scale, in terms of both parameters and training data, poses challenges in evaluating their
+              limitations and determining appropriate use cases. The rapid evolution of this field raises questions
+              about the optimal architecture and training data composition, as well as the mechanisms employed for time
+              series processing. Furthermore, to responsibly deploy these models in real-world scenarios, it is crucial
+              to understand their limitations and potential failure points, enabling stakeholders to make informed
+              decisions. <br>
+              To address these knowledge gaps, we introduce <b>Time Series Interrogator</b>🕵️📈, a novel framework for
+              analyzing time series foundation models, leveraging representation analysis and mechanistic
+              interpretability techniques. Our study applies it to multiple publicly available models, offering a
+              comparative analysis of their learned representations and underlying processes. This approach not only
+              provides insights into the workings of time series foundation models, but also paves the way for more
+              informed model development and application. By elucidating these complex systems, our work contributes to
+              the responsible advancement of time series analysis, enabling researchers and practitioners to harness the
+              full potential of foundation models while understanding their inherent strengths and limitations.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End paper abstract -->
+  </section>
+  <!-- End paper abstract -->
 
 
-<!-- Results -->  
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Results</h2>
-      <div class="columns is-centered">
-        <div class="column is-four-fifths">
-          <div class="content">
-            <p>
-              To answer the first research question: What are the similarity characteristics of the internal representations learned by different time series foundation models?
-            </p>
+  <!-- Results -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title">Results</h2>
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <div class="content">
+              <p>
+                To answer the first research question: <b>What are the similarity characteristics of the internal
+                  representations learned by different time series foundation models?</b>
+              </p>
 
-            <!-- AutonLab MOMENT -->
-            <h3 class="subtitle">AutonLab MOMENT</h3>
-            <div class="columns is-multiline">
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/AutonLab_MOMENT-1-large.png" alt="AutonLab MOMENT-1 Large Similarity Matrix">
-                  <figcaption class="has-text-centered">AutonLab MOMENT-1 Large</figcaption>
-                </figure>
+              <!-- AutonLab MOMENT -->
+              <h3 style="display: inline-block;">
+                Auton Lab MOMENT
+                <img src="static/images/moment_logo.png" alt="MOMENT Logo"
+                  style="height: 3em; margin-left: 10px; vertical-align: middle;">
+              </h3>
+
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/AutonLab_MOMENT-1-large.png"
+                      alt="AutonLab MOMENT-1 Large Similarity Matrix">
+                    <figcaption class="has-text-centered">AutonLab MOMENT-1 Large</figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <!-- Salesforce Moirai -->
+              <h3 style="display: inline-block;">
+                Salesforce Moirai
+                <img src="static/images/moirai_logo.png" alt="Salesforce Logo"
+                  style="height: 3em; margin-left: 10px; vertical-align: middle;">
+              </h3>
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/Salesforce_moirai-1.0-R-small.png"
+                      alt="Salesforce Moirai-1.0-R Small Similarity Matrix">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.0-R Small</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/Salesforce_moirai-1.0-R-base.png"
+                      alt="Salesforce Moirai-1.0-R Base Similarity Matrix">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.0-R Base</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/Salesforce_moirai-1.0-R-large.png"
+                      alt="Salesforce Moirai-1.0-R Large Similarity Matrix">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.0-R Large</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/Salesforce_moirai-1.1-R-small.png"
+                      alt="Salesforce Moirai-1.1-R Small Similarity Matrix">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Small</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/Salesforce_moirai-1.1-R-base.png"
+                      alt="Salesforce Moirai-1.1-R Base Similarity Matrix">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Base</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/Salesforce_moirai-1.1-R-large.png"
+                      alt="Salesforce Moirai-1.1-R Large Similarity Matrix">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Large</figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <!-- Amazon Chronos-T5 -->
+              <h3 style="display: inline-block;">
+                Amazon Chronos-T5
+                <img src="static/images/chronos_logo.png" alt="Amazon Logo"
+                  style="height: 1.7em; margin-left: 10px; vertical-align: middle;">
+              </h3>
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/amazon_chronos-t5-tiny.png"
+                      alt="Amazon Chronos-T5 Tiny Similarity Matrix">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/amazon_chronos-t5-mini.png"
+                      alt="Amazon Chronos-T5 Mini Similarity Matrix">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/amazon_chronos-t5-small.png"
+                      alt="Amazon Chronos-T5 Small Similarity Matrix">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Small</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/amazon_chronos-t5-base.png"
+                      alt="Amazon Chronos-T5 Base Similarity Matrix">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Base</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img src="static/images/similarity/amazon_chronos-t5-large.png"
+                      alt="Amazon Chronos-T5 Large Similarity Matrix">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Large</figcaption>
+                  </figure>
+                </div>
               </div>
             </div>
+            <div class="content">
+              <p>
+                To answer the second research question: <b>Is there any inherent structure in the learned
+                  representations, interesting patterns, or anomalies?</b>
+              </p>
 
-            <!-- Salesforce Moirai -->
-            <h3 class="subtitle">Salesforce Moirai</h3>
-            <div class="columns is-multiline">
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/Salesforce_moirai-1.0-R-small.png" alt="Salesforce Moirai-1.0-R Small Similarity Matrix">
-                  <figcaption class="has-text-centered">Salesforce Moirai-1.0-R Small</figcaption>
-                </figure>
-              </div>
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/Salesforce_moirai-1.0-R-base.png" alt="Salesforce Moirai-1.0-R Base Similarity Matrix">
-                  <figcaption class="has-text-centered">Salesforce Moirai-1.0-R Base</figcaption>
-                </figure>
-              </div>
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/Salesforce_moirai-1.0-R-large.png" alt="Salesforce Moirai-1.0-R Large Similarity Matrix">
-                  <figcaption class="has-text-centered">Salesforce Moirai-1.0-R Large</figcaption>
-                </figure>
-              </div>
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/Salesforce_moirai-1.1-R-small.png" alt="Salesforce Moirai-1.1-R Small Similarity Matrix">
-                  <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Small</figcaption>
-                </figure>
-              </div>
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/Salesforce_moirai-1.1-R-base.png" alt="Salesforce Moirai-1.1-R Base Similarity Matrix">
-                  <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Base</figcaption>
-                </figure>
-              </div>
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/Salesforce_moirai-1.1-R-large.png" alt="Salesforce Moirai-1.1-R Large Similarity Matrix">
-                  <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Large</figcaption>
-                </figure>
-              </div>
-            </div>
+              <h3 class="subtitle">Scaling the same model</h3>
 
-            <!-- Amazon Chronos-T5 -->
-            <h3 class="subtitle">Amazon Chronos-T5</h3>
-            <div class="columns is-multiline">
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/amazon_chronos-t5-tiny.png" alt="Amazon Chronos-T5 Tiny Similarity Matrix">
-                  <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny</figcaption>
-                </figure>
-              </div>
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/amazon_chronos-t5-mini.png" alt="Amazon Chronos-T5 Mini Similarity Matrix">
-                  <figcaption class="has-text-centered">Amazon Chronos-T5 Mini</figcaption>
-                </figure>
-              </div>
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/amazon_chronos-t5-small.png" alt="Amazon Chronos-T5 Small Similarity Matrix">
-                  <figcaption class="has-text-centered">Amazon Chronos-T5 Small</figcaption>
-                </figure>
-              </div>
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/amazon_chronos-t5-base.png" alt="Amazon Chronos-T5 Base Similarity Matrix">
-                  <figcaption class="has-text-centered">Amazon Chronos-T5 Base</figcaption>
-                </figure>
-              </div>
-              <div class="column is-half">
-                <figure class="image">
-                  <img src="static/images/similarity/amazon_chronos-t5-large.png" alt="Amazon Chronos-T5 Large Similarity Matrix">
-                  <figcaption class="has-text-centered">Amazon Chronos-T5 Large</figcaption>
-                </figure>
-              </div>
-            </div>
-
-            <p>
-              These similarity matrices provide a visual comparison of the internal representations learned by different time series foundation models.
-            </p>
-          </div>
-          <div class="content">
-            <p>
-              To answer the second research question: Is there any inherent structure in the learned representations, interesting patterns, or anomalies?
-            </p>
-
-            <h3 class="subtitle">Scaling the same model</h3>
-
-            <div class="columns is-multiline">
+              <div class="columns is-multiline">
                 <figure class="image">
                   <img src="static/images/similarity/sim_scale.png" alt="Scaling Amazon Chronos-T5">
                   <figcaption class="has-text-centered">Scaling Amazon Chronos-T5</figcaption>
                 </figure>
-            </div>
+              </div>
 
-            <h3 class="subtitle">Comparing different models from the same family</h3>
+              <h3 class="subtitle">Comparing different models from the same family</h3>
 
-            <div class="columns is-multiline">
+              <div class="columns is-multiline">
                 <figure class="image">
                   <img src="static/images/similarity/family.png" alt="Comparing Amazon Chronos-T5">
-                  <figcaption class="has-text-centered">Comparing Amazon Chronos-T5 Mini & Base to Large</figcaption>
+                  <figcaption class="has-text-centered">Amazon Chronos-T5 Mini & Base vs Large</figcaption>
                 </figure>
+              </div>
+
+              <!-- Comparing Different Models from Different Families -->
+              <h3 class="subtitle">Comparing Different Models from Different Families</h3>
+
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_Salesforce_moirai-1.1-R-small_Salesforce_moirai-1.0-R-base_CKA Similarity Matrix.png"
+                      alt="Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.0-R Base">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.0-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_Salesforce_moirai-1.1-R-small_Salesforce_moirai-1.0-R-large_CKA Similarity Matrix.png"
+                      alt="Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.0-R Large">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.0-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_Salesforce_moirai-1.1-R-small_Salesforce_moirai-1.0-R-small_CKA Similarity Matrix.png"
+                      alt="Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.0-R Small">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.0-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_Salesforce_moirai-1.1-R-small_Salesforce_moirai-1.1-R-base_CKA Similarity Matrix.png"
+                      alt="Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.1-R Base">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.1-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_Salesforce_moirai-1.1-R-small_Salesforce_moirai-1.1-R-large_CKA Similarity Matrix.png"
+                      alt="Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.1-R Large">
+                    <figcaption class="has-text-centered">Salesforce Moirai-1.1-R Small vs Salesforce Moirai-1.1-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-base_Salesforce_moirai-1.0-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Base vs Salesforce Moirai-1.0-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Base vs Salesforce Moirai-1.0-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-base_Salesforce_moirai-1.0-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Base vs Salesforce Moirai-1.0-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Base vs Salesforce Moirai-1.0-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-base_Salesforce_moirai-1.0-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Base vs Salesforce Moirai-1.0-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Base vs Salesforce Moirai-1.0-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-base_Salesforce_moirai-1.1-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Base vs Salesforce Moirai-1.1-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Base vs Salesforce Moirai-1.1-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-base_Salesforce_moirai-1.1-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Base vs Salesforce Moirai-1.1-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Base vs Salesforce Moirai-1.1-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-base_Salesforce_moirai-1.1-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Base vs Salesforce Moirai-1.1-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Base vs Salesforce Moirai-1.1-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-base_amazon_chronos-t5-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Base vs Amazon Chronos-T5 Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Base vs Amazon Chronos-T5 Large</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-large_Salesforce_moirai-1.0-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Large vs Salesforce Moirai-1.0-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Large vs Salesforce Moirai-1.0-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-large_Salesforce_moirai-1.0-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Large vs Salesforce Moirai-1.0-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Large vs Salesforce Moirai-1.0-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-large_Salesforce_moirai-1.0-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Large vs Salesforce Moirai-1.0-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Large vs Salesforce Moirai-1.0-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-large_Salesforce_moirai-1.1-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Large vs Salesforce Moirai-1.1-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Large vs Salesforce Moirai-1.1-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-large_Salesforce_moirai-1.1-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Large vs Salesforce Moirai-1.1-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Large vs Salesforce Moirai-1.1-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-large_Salesforce_moirai-1.1-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Large vs Salesforce Moirai-1.1-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Large vs Salesforce Moirai-1.1-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-mini_Salesforce_moirai-1.0-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Mini vs Salesforce Moirai-1.0-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini vs Salesforce Moirai-1.0-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-mini_Salesforce_moirai-1.0-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Mini vs Salesforce Moirai-1.0-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini vs Salesforce Moirai-1.0-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-mini_Salesforce_moirai-1.0-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Mini vs Salesforce Moirai-1.0-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini vs Salesforce Moirai-1.0-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-mini_Salesforce_moirai-1.1-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Mini vs Salesforce Moirai-1.1-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini vs Salesforce Moirai-1.1-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-mini_Salesforce_moirai-1.1-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Mini vs Salesforce Moirai-1.1-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini vs Salesforce Moirai-1.1-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-mini_Salesforce_moirai-1.1-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Mini vs Salesforce Moirai-1.1-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini vs Salesforce Moirai-1.1-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-mini_amazon_chronos-t5-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Mini vs Amazon Chronos-T5 Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini vs Amazon Chronos-T5 Base</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-mini_amazon_chronos-t5-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Mini vs Amazon Chronos-T5 Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini vs Amazon Chronos-T5 Large</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-mini_amazon_chronos-t5-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Mini vs Amazon Chronos-T5 Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Mini vs Amazon Chronos-T5 Small</figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-small_Salesforce_moirai-1.0-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Small vs Salesforce Moirai-1.0-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Small vs Salesforce Moirai-1.0-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-small_Salesforce_moirai-1.0-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Small vs Salesforce Moirai-1.0-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Small vs Salesforce Moirai-1.0-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-small_Salesforce_moirai-1.0-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Small vs Salesforce Moirai-1.0-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Small vs Salesforce Moirai-1.0-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-small_Salesforce_moirai-1.1-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Small vs Salesforce Moirai-1.1-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Small vs Salesforce Moirai-1.1-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-small_Salesforce_moirai-1.1-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Small vs Salesforce Moirai-1.1-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Small vs Salesforce Moirai-1.1-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-small_Salesforce_moirai-1.1-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Small vs Salesforce Moirai-1.1-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Small vs Salesforce Moirai-1.1-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-small_amazon_chronos-t5-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Small vs Amazon Chronos-T5 Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Small vs Amazon Chronos-T5 Base</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-small_amazon_chronos-t5-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Small vs Amazon Chronos-T5 Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Small vs Amazon Chronos-T5 Large
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_Salesforce_moirai-1.0-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.0-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.0-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_Salesforce_moirai-1.0-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.0-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.0-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_Salesforce_moirai-1.0-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.0-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.0-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_Salesforce_moirai-1.1-R-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.1-R Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.1-R Base
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_Salesforce_moirai-1.1-R-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.1-R Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.1-R Large
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_Salesforce_moirai-1.1-R-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.1-R Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Salesforce Moirai-1.1-R Small
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_amazon_chronos-t5-base_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Amazon Chronos-T5 Base">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Amazon Chronos-T5 Base</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_amazon_chronos-t5-large_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Amazon Chronos-T5 Large">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Amazon Chronos-T5 Large</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_amazon_chronos-t5-mini_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Amazon Chronos-T5 Mini">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Amazon Chronos-T5 Mini</figcaption>
+                  </figure>
+                </div>
+                <div class="column is-half">
+                  <figure class="image">
+                    <img
+                      src="static/images/similarity/tokens_cka_amazon_chronos-t5-tiny_amazon_chronos-t5-small_CKA Similarity Matrix.png"
+                      alt="Amazon Chronos-T5 Tiny vs Amazon Chronos-T5 Small">
+                    <figcaption class="has-text-centered">Amazon Chronos-T5 Tiny vs Amazon Chronos-T5 Small</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <!-- Add third question results here -->
+            <p>
+              To answer the third research question: <b>Can we identify how different parts of models contribute to the
+                final predictions?</b>
+            </p>
+            <br>
+
+            <!-- Add description of dataset ECG 5000 -->
+            <div class="content">
+              <h4>Dataset: ECG 5000</h4>
+              <div class="columns">
+                
+                <!-- Dataset Properties and Pre-processing -->
+                <div class="column">
+                  <ul>
+                    <li><b>Properties:</b></li>
+                    <ul>
+                      <li>5000 separate ECGs (samples)</li>
+                      <li>Each sample contains 140 time steps</li>
+                      <li>5 classes</li>
+                    </ul>
+
+                    <h4>Pre-processing:</h4>
+                    <ul>
+                      <li>Extract each heartbeat</li>
+                      <li>Make each heartbeat equal length using interpolation</li>
+                    </ul>
+                  </ul>
+                </div>
+                <!-- Exemplar Heartbeat Image -->
+                <div class="column">
+                  <figure class="image">
+                    <img src="static/images/ecg.png" alt="Exemplar ECG Heartbeat">
+                    <figcaption class="has-text-centered">Exemplar ECG Heartbeat</figcaption>
+                  </figure>
+                </div>
+              </div>
             </div>
 
-            <h3 class="subtitle">Comparing different models from different families</h3>
-            
+            <!-- Results with and without layer normalization -->
+            <div class="content">
+              <h4>Results: Impact of Layer Normalization</h4>
+
+              <p>Comparison of model performance with and without layer normalization:</p>
+
+              <!-- Without Layer Normalization -->
+              <figure class="image">
+                <img src="static/images/no_layernorm.png" alt="SVM Classification without Layer Normalization">
+                <figcaption class="has-text-centered">Without Layer Normalization</figcaption>
+              </figure>
+
+              <!-- With Layer Normalization -->
+              <figure class="image">
+                <img src="static/images/with_layernorm.png" alt="SVM Classification with Layer Normalization">
+                <figcaption class="has-text-centered">With Layer Normalization</figcaption>
+              </figure>
+            </div>
+  </section>
+  <!-- End Results -->
+
+
+  <!-- Paper poster -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title">Poster</h2>
+        <img src="static/images/poster.png" alt="Poster" style="width: 100%; height: auto;">
       </div>
     </div>
-  </div>
-</section>
-<!-- End Results -->
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-      <img src="static/images/poster.png" alt="Poster" style="width: 100%; height: auto;">
-    </div>
-  </div>
-</section>
-<!-- End paper poster -->
+  </section>
+  <!-- End paper poster -->
 
 
 
-<!--BibTex citation -->
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
 @inproceedings{Wilinski2024tsinterpretability,
   author    = {Michał Wiliński and Mononito Goswami and Nina Żukowska and Chi-En Teh and Artur Dubrawski},
   title     = {Wait a MOMENT, What Do You Know? Interrogating Time Series Foundation Models},
@@ -330,34 +843,38 @@
   organization = {Auton Lab, Carnegie Mellon University},
 }
     </code></pre>
-  </div>
-</section>
-<!--End BibTex citation -->
+    </div>
+  </section>
+  <!--End BibTex citation -->
 
 
 
   <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
 
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.<br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.<br> This website is licensed
+              under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+  <!-- Statcounter tracking code -->
 
-    <!-- End of Statcounter Code -->
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
-  </body>
-  </html>
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
